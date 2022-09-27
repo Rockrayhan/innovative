@@ -1,0 +1,45 @@
+
+body {
+    overflow-x: hidden;
+}
+
+.inno-font{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.banner-img{
+    height: 100vh;
+    
+}
+
+.banner-header{
+    font-size: 55px;
+}
+
+.moving_img{
+    border-radius: 50%;
+    height: 150px;
+    width: 200px;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 0.7s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.banner-div {
+    background-color: rgba(18, 140, 197, 0.662);
+    border-radius: 20px;
+   width: 150px !important
+    
+
+}
+
+
